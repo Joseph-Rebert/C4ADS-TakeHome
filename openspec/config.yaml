@@ -1,0 +1,41 @@
+schema: spec-driven
+
+context: |
+  Project: C4ADS Software Engineer Intern take-home exercise.
+  Goal: a small end-to-end full-stack feature serving fictitious sanctioned-entity data.
+
+  Tech stack:
+    - Backend: Python 3.13, Django + Django REST Framework, SQLite.
+    - Frontend: React (fetches from the DRF API, no client-side-only filtering).
+    - Tests: Django's built-in test framework (or pytest).
+
+  Data: entities.csv — 100 records with fields id, name, country, entity_type
+  (Individual or Organization), date_added, program, notes. Loaded into SQLite on
+  startup via a management command or data migration; queries use the Django ORM.
+
+  API: GET /api/entities/ returns all records as JSON and supports exact-match
+  filtering by `country` and `entity_type` query params (combinable).
+
+  Conventions:
+    - Keep it minimal and readable; a clean working submission beats an ambitious broken one.
+    - Commit history should reflect real incremental development (no single mega-commit).
+    - AI use is disclosed per-part in the README (provider + model).
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
