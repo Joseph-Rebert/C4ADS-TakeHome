@@ -1,0 +1,101 @@
+id,name,country,entity_type,date_added,program,notes
+1,Redstone Commerce LLC,Russia,Organization,2022-03-15,UKRAINE-EO13685,Shell company linked to state energy contracts
+2,Brightwave Shipping Co.,China,Organization,2021-08-04,DPRK-EO13722,Suspected vessel operator for North Korean coal exports
+3,Viktor Morozenko,Russia,Individual,2022-03-15,UKRAINE-EO13685,Director of Redstone Commerce LLC
+4,Apex Meridian Holdings,UAE,Organization,2020-11-22,IRAN-EO13599,Real estate front used to obscure Iranian assets
+5,Layla Al-Farouqi,Iraq,Individual,2019-06-30,SDGT,Alleged financier for regional extremist network
+6,Clearwater Maritime Ltd,Malta,Organization,2023-01-10,RUSSIA-EO14024,Operator of vessels transporting sanctioned cargo
+7,Sung-jin Kwak,North Korea,Individual,2021-08-04,DPRK-EO13722,Procurement agent for weapons components
+8,Pinnacle Capital Group,Turkey,Organization,2020-03-18,SDGT,Used to move funds through formal banking system
+9,Rodrigo Salinas Vega,Venezuela,Individual,2022-07-29,VENEZUELA-EO13884,Connected to state oil revenue skimming scheme
+10,Norbridge Ventures LLC,Cyprus,Organization,2021-05-03,RUSSIA-EO14024,Holding company obscuring oligarch assets
+11,Omar Farah Warsame,Somalia,Individual,2018-12-11,SOMALIA,Piracy financing network coordinator
+12,Transpacific Crown Logistics,Singapore,Organization,2022-11-30,DPRK-EO13722,Freight forwarder for dual-use goods procurement
+13,Natalia Drozdova,Russia,Individual,2023-02-28,RUSSIA-EO14024,Banker facilitating sanctions evasion through third countries
+14,Tidewater Resource Partners,Oman,Organization,2021-09-14,IRAN-EO13599,Oil trading intermediary obscuring Iranian crude origin
+15,Marco Delgado Ríos,Colombia,Individual,2019-03-05,SDNTK,Senior logistics figure in transnational drug trafficking org
+16,Eastbridge Import Export,Georgia,Organization,2023-04-17,RUSSIA-EO14024,Trans-shipment node for controlled technology exports
+17,Ji-ho Baek,China,Individual,2020-06-22,DPRK-EO13722,Front company operator facilitating luxury goods imports
+18,Surehaul Freight Services,Serbia,Organization,2022-08-08,RUSSIA-EO14024,Trucking firm used to circumvent EU export controls
+19,Dariush Karimi,Iran,Individual,2017-10-01,IRAN-TRA,Procurement network operator for ballistic missile program
+20,Goldport Asset Partners,British Virgin Islands,Organization,2023-03-22,RUSSIA-EO14024,Offshore vehicle holding European real estate proceeds
+21,Irongate Petroleum LLC,Iran,Organization,2018-05-14,IRAN-EO13599,Intermediary for crude oil sales disguised as third-party trades
+22,Alexei Volkonsky,Russia,Individual,2022-06-01,UKRAINE-EO13685,Senior official linked to occupied territory revenue extraction
+23,Bluecrest Trade Finance,UAE,Organization,2021-07-19,IRAN-EO13599,Trade finance vehicle used to settle Iranian oil transactions
+24,Yeon-suk Cho,North Korea,Individual,2020-11-03,DPRK-EO13722,IT contractor generating hard currency for state weapons program
+25,Sandoval Portillo Group,Mexico,Organization,2019-08-22,SDNTK,Financial holding structure for cartel money laundering
+26,Mirela Bogdanović,Serbia,Individual,2022-09-05,RUSSIA-EO14024,Logistics coordinator for sanctioned cargo through Balkan routes
+27,Fareast Commodities Ltd,Hong Kong,Organization,2021-03-30,DPRK-EO13722,Commodities broker facilitating coal and iron ore exports
+28,Grigory Chesnokov,Russia,Individual,2023-01-25,UKRAINE-EO13685,Oligarch with interests in occupied Ukrainian industrial assets
+29,Crestline Bunker Supply,UAE,Organization,2022-04-11,RUSSIA-EO14024,Ship-to-ship fuel transfer operator serving sanctioned vessels
+30,Farouk Nasser Al-Omari,Syria,Individual,2017-06-18,SYRIA-EO13582,Financier connected to regime procurement network
+31,Vantage Point Holdings,Cyprus,Organization,2020-08-03,RUSSIA-EO14024,Offshore holding company for Russian media assets
+32,Hana Petrovičová,Czech Republic,Individual,2023-05-09,RUSSIA-EO14024,Facilitator of technology transfers to sanctioned Russian defense firms
+33,Colossus Energy Trading,Turkey,Organization,2022-10-17,RUSSIA-EO14024,Energy broker routing Russian crude through Turkish intermediaries
+34,Kwame Asante-Boateng,Ghana,Individual,2021-01-14,SDGT,Financial node in West African terror financing network
+35,Northstar Bulk Carriers,Panama,Organization,2022-07-04,DPRK-EO13722,Flag-of-convenience operator for North Korean cargo vessels
+36,Oksana Tymoshchuk,Ukraine,Individual,2023-03-19,UKRAINE-EO13685,Collaborator facilitating asset transfers to Russian-controlled entities
+37,Alhambra Capital Advisors,Spain,Organization,2020-05-28,IRAN-EO13599,Investment advisory firm moving Iranian sovereign wealth
+38,Tariq Mansour Al-Jabri,Kuwait,Individual,2019-11-07,SDGT,Donor network operator for Gulf-based extremist financing
+39,Meridian Dry Bulk Inc.,Marshall Islands,Organization,2021-06-22,DPRK-EO13722,Vessel management company operating ships for DPRK coal trade
+40,Bogdan Lysychenko,Russia,Individual,2022-08-30,UKRAINE-EO13685,Customs official facilitating cross-border contraband flows
+41,Sunshard Commodities PTE,Singapore,Organization,2023-02-14,DPRK-EO13722,Commodity trading firm linked to DPRK mineral export revenues
+42,Elena Zarubina,Russia,Individual,2021-12-01,RUSSIA-EO14024,Attorney structuring offshore ownership for sanctioned oligarchs
+43,Cobre del Sur Extractiva,Bolivia,Organization,2020-09-16,SDNTK,Mining company with narco-linked ownership obscured by nominees
+44,Hassan Obeid Moussa,Lebanon,Individual,2018-03-22,SDGT,Hezbollah-linked financier operating through Lebanese trade firms
+45,Blackrock Tanker Mgmt.,Greece,Organization,2022-05-03,IRAN-EO13599,Tanker management company operating shadow fleet for Iran
+46,Pavel Rodionov,Russia,Individual,2023-06-12,RUSSIA-EO14024,Sanctioned arms dealer with links to African conflict zones
+47,Horizons FX Solutions,Cyprus,Organization,2021-10-08,RUSSIA-EO14024,Currency exchange network obscuring Russian capital flight
+48,Amira Benali,Tunisia,Individual,2020-02-17,SDGT,Facilitator of foreign fighter financing flows to conflict zones
+49,Cascade Import Solutions,Canada,Organization,2022-11-14,DPRK-EO13722,Front company used to procure controlled electronics for DPRK
+50,Ruslan Ibragimov,Kazakhstan,Individual,2021-07-29,RUSSIA-EO14024,Intermediary re-exporting Western sanctioned goods into Russia
+51,Gulf Bridge Trading LLC,UAE,Organization,2019-04-05,IRAN-EO13599,Multi-commodity broker facilitating Iran sanctions evasion
+52,Yuki Hashimoto,Japan,Individual,2020-10-11,DPRK-EO13722,Technology broker supplying dual-use electronics to DPRK networks
+53,Riverstone Capital Partners,Luxembourg,Organization,2022-01-27,RUSSIA-EO14024,Private equity vehicle holding frozen Russian infrastructure assets
+54,Andriy Marchenko,Ukraine,Individual,2023-04-03,UKRAINE-EO13685,Corrupt official linked to diversion of humanitarian aid
+55,Solaris Refinery Holdings,Venezuela,Organization,2021-08-18,VENEZUELA-EO13884,Refinery operator tied to state oil revenue diversion scheme
+56,Faisal Al-Haddad,Saudi Arabia,Individual,2018-09-30,SDGT,Financier of extremist cells operating in North Africa
+57,Ironshore Vessel Management,Liberia,Organization,2022-06-20,IRAN-EO13599,Ship management firm operating tankers for Iranian crude exports
+58,Dmitri Savenkov,Russia,Individual,2021-11-15,RUSSIA-EO14024,Defense procurement official with oversight of drone component supply
+59,Centaurus Asset Management,Switzerland,Organization,2020-07-09,RUSSIA-EO14024,Wealth management firm hiding sanctioned Russian assets in Europe
+60,Mohammad Reza Tehrani,Iran,Individual,2019-02-14,IRAN-TRA,Engineer involved in centrifuge component procurement network
+61,Blueleaf Agro Exports,Brazil,Organization,2022-03-01,SDNTK,Agricultural export firm used as cover for narco proceeds
+62,Ivanka Shulhina,Russia,Individual,2023-07-05,UKRAINE-EO13685,Media executive managing state disinformation operations
+63,Caspian Gate Logistics,Azerbaijan,Organization,2021-04-22,RUSSIA-EO14024,Transit corridor operator re-routing sanctioned Russian cargo
+64,Ali Hassan Warsame,Kenya,Individual,2017-11-08,SOMALIA,Financial facilitator for Al-Shabaab regional financing network
+65,Europark Property Group,Netherlands,Organization,2022-09-29,RUSSIA-EO14024,Real estate holding company for oligarch assets in Western Europe
+66,Nikolai Berezin,Russia,Individual,2020-12-03,RUSSIA-EO14024,Tycoon with controlling interest in multiple sanctioned energy firms
+67,Pacifica Marine Services,Philippines,Organization,2021-05-17,DPRK-EO13722,Crewing agency supplying labor to DPRK-linked vessels
+68,Soraya Rahmani,Iran,Individual,2019-08-26,IRAN-EO13599,Commodities trader facilitating petrochemical sales for IRGC
+69,Bosphorus Trade Solutions,Turkey,Organization,2023-01-03,RUSSIA-EO14024,Logistics firm providing evasion routes for Russian dual-use goods
+70,Jorge Espinoza Reyes,Peru,Individual,2018-06-15,SDNTK,Regional narco-financial coordinator laundering through real estate
+71,Helix Capital Investments,Isle of Man,Organization,2022-02-08,RUSSIA-EO14024,Offshore fund holding assets of sanctioned Russian businessmen
+72,Tatyana Grishina,Russia,Individual,2021-09-20,UKRAINE-EO13685,Accountant managing financial flows for occupied region entities
+73,Dalian Blue Ocean Shipping,China,Organization,2022-12-19,DPRK-EO13722,Shipper providing maritime services for North Korean bulk cargo
+74,Abdulrahman Al-Zahrani,UAE,Individual,2020-04-30,SDGT,Hawala operator facilitating cross-border terrorist financing
+75,Copperfield Energy Holdings,Malta,Organization,2021-02-11,IRAN-EO13599,Energy holding group managing Iranian upstream assets via nominees
+76,Maxim Golovkin,Russia,Individual,2023-05-22,RUSSIA-EO14024,Silicon Valley-connected venture investor under export control probe
+77,Southern Cross Mineral Corp,Australia,Organization,2022-07-15,DPRK-EO13722,Mining firm with shell subsidiaries linked to DPRK revenue streams
+78,Reza Pourali,Iran,Individual,2018-12-20,IRAN-TRA,Missile propellant procurement specialist linked to IRGC-ASF
+79,Amberstone Wealth Group,Monaco,Organization,2021-06-04,RUSSIA-EO14024,Private banking vehicle used by sanctioned Russian elites
+80,Yevhenia Kravchenko,Ukraine,Individual,2023-02-11,UKRAINE-EO13685,Notary facilitating fraudulent property transfers in occupied areas
+81,Rimini Trade Consultants,Italy,Organization,2020-11-30,IRAN-EO13599,Trade consultancy brokering European technology for Iranian buyers
+82,Chen Jianguo,China,Individual,2021-03-07,DPRK-EO13722,Banker facilitating hard currency transfers for DPRK state entities
+83,Highfield Capital LLC,UAE,Organization,2022-08-24,IRAN-EO13599,Investment firm routing Iranian sovereign fund proceeds offshore
+84,Sergei Krupenin,Russia,Individual,2020-06-18,UKRAINE-EO13685,Paramilitary financier providing funding to irregular armed groups
+85,Volta River Freight Ltd,Togo,Organization,2021-10-29,SDGT,West African freight firm laundering proceeds from illicit mining
+86,Maryam Hosseini,Iran,Individual,2019-05-12,IRAN-EO13599,Senior procurement official for NIOC front companies in Europe
+87,Trident Offshore Finance,Cayman Islands,Organization,2022-04-06,RUSSIA-EO14024,Structured finance vehicle layering sanctioned Russian capital
+88,Anatoliy Hrytsenko,Russia,Individual,2023-03-14,UKRAINE-EO13685,Regional governor overseeing forced transfer of Ukrainian assets
+89,Newbridge Tech Solutions,Taiwan,Organization,2021-12-22,DPRK-EO13722,Electronics distributor linked to DPRK dual-use procurement ring
+90,Fatou Diallo,Senegal,Individual,2020-08-14,SDGT,NGO director using humanitarian cover for extremist fund transfers
+91,Polaris Bulk Terminals,Estonia,Organization,2022-10-01,RUSSIA-EO14024,Port operator facilitating trans-shipment of sanctioned Russian goods
+92,Igor Stepanenko,Russia,Individual,2021-07-08,UKRAINE-EO13685,Shipping magnate operating vessels in Black Sea sanctioned routes
+93,Silvergate Marine Trading,UAE,Organization,2023-06-01,IRAN-EO13599,Marine fuel and cargo trader supplying Iranian-linked vessels
+94,Kim Tae-young,North Korea,Individual,2022-01-19,DPRK-EO13722,State-affiliated cyber operative linked to cryptocurrency theft
+95,Coastal Premier Logistics,Malaysia,Organization,2020-03-25,DPRK-EO13722,Regional logistics hub for North Korean refined petroleum imports
+96,Valentina Sorokina,Russia,Individual,2023-04-28,RUSSIA-EO14024,Corporate lawyer facilitating nominee ownership for oligarch network
+97,Sievert Industrial Supply,Germany,Organization,2022-06-30,RUSSIA-EO14024,Industrial parts supplier under investigation for export control violations
+98,Jabir Al-Mukhtar,Yemen,Individual,2019-01-09,SDGT,Arms broker facilitating weapons transfers to non-state actors
+99,Stonegate Equity Partners,Luxembourg,Organization,2021-08-31,RUSSIA-EO14024,Private equity fund used to consolidate sanctioned Russian media assets
+100,Leila Ahmadpour,Iran,Individual,2018-07-23,IRAN-TRA,Nuclear materials procurement specialist connected to AEOI network
