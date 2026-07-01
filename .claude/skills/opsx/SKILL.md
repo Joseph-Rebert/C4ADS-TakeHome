@@ -24,6 +24,11 @@ Pick the action from the user's request:
 | "explore", "think through X first" | **explore** |
 
 **Golden rules**
+- **Approval gate:** before writing ANY opsx artifact (proposal, design, specs,
+  tasks) to disk, present the drafted content to the user in chat and wait for
+  explicit approval. Do not create or overwrite artifact files until they approve.
+  If they request changes, revise and re-present. This applies to every artifact,
+  every time.
 - Artifacts first, code second. Never write feature code in *propose*/*explore*.
 - `context` and `rules` returned by the CLI are constraints for YOU — never copy
   those blocks into artifact files.
@@ -43,8 +48,10 @@ Pick the action from the user's request:
 4. For each artifact whose dependencies are satisfied (proposal → design → specs → tasks):
    - `openspec instructions <artifact-id> --change "<name>" --json`
    - Read any completed dependency files it lists.
-   - Write the file to `resolvedOutputPath` using the returned `template` as structure,
-     honoring `context`/`rules` as constraints (do NOT paste them in).
+   - Draft the file content using the returned `template` as structure, honoring
+     `context`/`rules` as constraints (do NOT paste them in).
+   - **Present the draft in chat and get explicit approval BEFORE writing it.**
+     Only after approval, write it to `resolvedOutputPath`.
    - Re-run `openspec status --change "<name>" --json`; continue until every id in
      `applyRequires` has `status: "done"`.
 5. Finish: `openspec status --change "<name>"` and tell the user to run apply next.
