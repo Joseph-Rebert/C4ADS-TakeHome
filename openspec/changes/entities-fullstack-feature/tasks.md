@@ -5,9 +5,9 @@
 
 ## 2. Data Model & Loading
 
-- [ ] 2.1 Define Entity model (id as CSV-sourced primary key, name, country, entity_type, date_added, program, notes) + migration
-- [ ] 2.2 Implement `load_entities` management command: idempotent upsert from entities.csv by id
-- [ ] 2.3 Verify command loads all 100 records correctly and is safe to re-run
+- [x] 2.1 Define Entity model (id as CSV-sourced primary key, name, country, entity_type, date_added, program, notes) + migration
+- [x] 2.2 Implement `load_entities` management command: idempotent upsert from entities.csv by id
+- [x] 2.3 Verify command loads all 100 records correctly and is safe to re-run
 
 ## 3. API Endpoint
 
