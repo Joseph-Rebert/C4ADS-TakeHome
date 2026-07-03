@@ -26,8 +26,8 @@
 
 ## 5. Frontend Project Setup
 
-- [ ] 5.1 Scaffold frontend/ with Vite + React, add Vitest + React Testing Library as dev deps
-- [ ] 5.2 Add API base URL config (env var, defaults to http://localhost:8000)
+- [x] 5.1 Scaffold frontend/ with Vite + React, add Vitest + React Testing Library as dev deps
+- [x] 5.2 Add API base URL config (env var, defaults to http://localhost:8000)
 
 ## 6. Frontend Table & Filters
 
