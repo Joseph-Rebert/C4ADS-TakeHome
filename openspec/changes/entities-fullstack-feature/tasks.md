@@ -18,11 +18,11 @@
 
 ## 4. Backend Tests
 
-- [ ] 4.1 Test: GET /api/entities/ returns 200 and 100 records
-- [ ] 4.2 Test: filtering by country returns only matching records
-- [ ] 4.3 Test: filtering by entity_type returns only matching records
-- [ ] 4.4 Test: combined country + entity_type filter returns correct subset
-- [ ] 4.5 Test: invalid entity_type returns 400
+- [x] 4.1 Test: GET /api/entities/ returns 200 and 100 records
+- [x] 4.2 Test: filtering by country returns only matching records
+- [x] 4.3 Test: filtering by entity_type returns only matching records
+- [x] 4.4 Test: combined country + entity_type filter returns correct subset
+- [x] 4.5 Test: invalid entity_type returns 400
 
 ## 5. Frontend Project Setup
 
