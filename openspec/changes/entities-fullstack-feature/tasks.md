@@ -31,10 +31,10 @@
 
 ## 6. Frontend Table & Filters
 
-- [ ] 6.1 Build API client function (fetch with country/entity_type params)
-- [ ] 6.2 Build EntityTable component (name, country, entity_type, date_added, program columns)
-- [ ] 6.3 Build filter controls (country + entity_type dropdowns) wired to trigger new API requests
-- [ ] 6.4 Wire up App: loading state, error state, render table on success
+- [x] 6.1 Build API client function (fetch with country/entity_type params)
+- [x] 6.2 Build EntityTable component (name, country, entity_type, date_added, program columns)
+- [x] 6.3 Build filter controls (country + entity_type dropdowns) wired to trigger new API requests
+- [x] 6.4 Wire up App: loading state, error state, render table on success
 
 ## 7. Frontend Tests
 
