@@ -51,4 +51,4 @@
 - [x] 8.2 Document test-run commands (backend and frontend)
 - [x] 8.3 Add OpenSpec/AI-disclosure block (provider + model per part)
 - [x] 8.4 Write reflection paragraph (3-5 sentences) on a key decision/tradeoff
-- [ ] 8.5 Final pass: run full test suites, verify app end-to-end, review diff
+- [x] 8.5 Final pass: run full test suites, verify app end-to-end, review diff
