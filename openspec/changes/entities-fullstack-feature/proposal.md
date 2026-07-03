@@ -20,7 +20,6 @@ lets a user list and filter 100 fictitious sanctioned-entity records.
   server-side, with explicit loading and error states.
 - Add Django unit tests (list 200 + count, country filter, entity_type filter,
   combined filters) and React component tests (Vitest + React Testing Library).
-- Add Docker Compose to run backend + frontend together.
 - Add a README with setup, test commands, per-part AI-disclosure blocks, and a
   reflection paragraph.
 
@@ -44,5 +43,4 @@ lets a user list and filter 100 fictitious sanctioned-entity records.
 - **Dependencies (new)**: Django, djangorestframework, pydantic (backend);
   React, Vite, Vitest, React Testing Library (frontend).
 - **Data**: `entities.csv` → SQLite DB seeded at setup time.
-- **Infra**: `docker-compose.yml`, per-service Dockerfiles.
 - **No existing systems affected** (greenfield repo).

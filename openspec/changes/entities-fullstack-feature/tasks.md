@@ -43,18 +43,12 @@
 - [x] 7.3 Test: error state renders on failed request
 - [x] 7.4 Test: changing a filter triggers a new fetch call with correct query params
 
-## 8. Docker Compose
+<!-- Section 8 (Docker Compose) removed 2026-07-02: descoped at user's direction. -->
 
-- [ ] 8.1 Write backend Dockerfile + entrypoint (migrate, load_entities, runserver)
-- [ ] 8.2 Write frontend Dockerfile (Vite dev server)
-- [ ] 8.3 Write docker-compose.yml wiring both services + ports + API URL env var
-- [ ] 8.4 Verify `docker compose up` serves a working app end-to-end
+## 8. README & Wrap-up
 
-## 9. README & Wrap-up
-
-- [ ] 9.1 Write setup instructions (local, non-Docker) for backend and frontend
-- [ ] 9.2 Write Docker Compose instructions
-- [ ] 9.3 Document test-run commands (backend and frontend)
-- [ ] 9.4 Add OpenSpec/AI-disclosure block (provider + model per part)
-- [ ] 9.5 Write reflection paragraph (3-5 sentences) on a key decision/tradeoff
-- [ ] 9.6 Final pass: run full test suites, verify app end-to-end, review diff
+- [ ] 8.1 Write local setup instructions for backend and frontend
+- [ ] 8.2 Document test-run commands (backend and frontend)
+- [ ] 8.3 Add OpenSpec/AI-disclosure block (provider + model per part)
+- [ ] 8.4 Write reflection paragraph (3-5 sentences) on a key decision/tradeoff
+- [ ] 8.5 Final pass: run full test suites, verify app end-to-end, review diff

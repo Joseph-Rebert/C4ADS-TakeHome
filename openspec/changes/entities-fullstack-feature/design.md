@@ -11,7 +11,7 @@ scaffolding and a Python venv; no Django/React/Docker tooling yet.
 - React table UI with server-side filtering, loading/error states.
 - Deterministic, idempotent data load (safe to re-run).
 - Test coverage matching the exercise's explicit rubric.
-- Bonus: pydantic query validation, Docker Compose, frontend tests.
+- Bonus: pydantic query validation, frontend tests.
 
 **Non-Goals:**
 - Auth, pagination, write endpoints, or CSV upload UI — not requested.
@@ -21,16 +21,13 @@ scaffolding and a Python venv; no Django/React/Docker tooling yet.
 ## Decisions
 
 - **Repo layout**: `backend/` (Django project `config` + app `entities`) and
-  `frontend/` (Vite + React) as siblings at repo root, alongside `entities.csv`
-  and `docker-compose.yml`. Keeps each stack's tooling (venv, node_modules)
-  self-contained and matches how the Docker Compose services will be built.
+  `frontend/` (Vite + React) as siblings at repo root, alongside `entities.csv`.
+  Keeps each stack's tooling (venv, node_modules) self-contained.
 - **CSV loading**: a management command `load_entities` reads `entities.csv`
   from repo root (path configurable via Django setting), and upserts rows by
   `id` (the CSV's own id becomes the model's primary key) so re-running the
-  command is idempotent rather than duplicating rows. Run manually per README
-  instructions and automatically inside the Docker entrypoint — "on startup"
-  per the task is satisfied by the container entrypoint running it before
-  `runserver`.
+  command is idempotent rather than duplicating rows. Run manually as part of
+  the README setup steps (after `migrate`, before `runserver`).
 - **Filtering + validation**: query params are parsed and validated with a
   pydantic model (`EntityFilterParams`) inside the DRF view before touching the
   ORM — rejects unknown/malformed `entity_type` values with a 400 instead of
@@ -47,16 +44,15 @@ scaffolding and a Python venv; no Django/React/Docker tooling yet.
   entity types) rather than free text, per the task's "dropdowns or text
   inputs" allowance — dropdowns avoid client-side guessing of exact-match
   strings.
-- **Docker Compose**: two services, `backend` (runs migrations + `load_entities`
-  + `runserver` via an entrypoint script) and `frontend` (Vite dev server),
-  backend exposes 8000, frontend exposes 5173 and is configured with the
-  backend's URL via an env var.
+- **Docker Compose**: descoped mid-implementation (2026-07-02) at the user's
+  direction — the app runs locally via two dev servers (Django on 8000, Vite
+  on 5173) per the README instead.
 
 ## Risks / Trade-offs
 
-- [SQLite file lives inside the backend container / local checkout and is
-  rebuilt from CSV each run] → acceptable for a take-home; note in README that
-  data is not persisted across `docker compose down -v`.
+- [SQLite file lives in the local checkout and is rebuilt from CSV via
+  `load_entities`] → acceptable for a take-home; the DB file is gitignored
+  and regenerable at any time.
 - [Country dropdown is a fixed list baked from the current CSV snapshot] →
   acceptable since the dataset is static for this exercise; documented as a
   simplification in the README reflection.
