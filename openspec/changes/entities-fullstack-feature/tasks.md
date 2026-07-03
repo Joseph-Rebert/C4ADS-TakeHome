@@ -47,8 +47,8 @@
 
 ## 8. README & Wrap-up
 
-- [ ] 8.1 Write local setup instructions for backend and frontend
-- [ ] 8.2 Document test-run commands (backend and frontend)
-- [ ] 8.3 Add OpenSpec/AI-disclosure block (provider + model per part)
-- [ ] 8.4 Write reflection paragraph (3-5 sentences) on a key decision/tradeoff
+- [x] 8.1 Write local setup instructions for backend and frontend
+- [x] 8.2 Document test-run commands (backend and frontend)
+- [x] 8.3 Add OpenSpec/AI-disclosure block (provider + model per part)
+- [x] 8.4 Write reflection paragraph (3-5 sentences) on a key decision/tradeoff
 - [ ] 8.5 Final pass: run full test suites, verify app end-to-end, review diff
