@@ -38,10 +38,10 @@
 
 ## 7. Frontend Tests
 
-- [ ] 7.1 Test: table renders rows from mocked API response
-- [ ] 7.2 Test: loading state renders while request is pending
-- [ ] 7.3 Test: error state renders on failed request
-- [ ] 7.4 Test: changing a filter triggers a new fetch call with correct query params
+- [x] 7.1 Test: table renders rows from mocked API response
+- [x] 7.2 Test: loading state renders while request is pending
+- [x] 7.3 Test: error state renders on failed request
+- [x] 7.4 Test: changing a filter triggers a new fetch call with correct query params
 
 ## 8. Docker Compose
 
