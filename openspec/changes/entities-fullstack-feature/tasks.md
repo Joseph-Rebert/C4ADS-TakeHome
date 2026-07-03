@@ -1,7 +1,7 @@
 ## 1. Backend Project Setup
 
-- [ ] 1.1 Create backend/ Django project (config) + entities app, add Django, djangorestframework, pydantic to backend/requirements.txt
-- [ ] 1.2 Configure settings (INSTALLED_APPS, DRF, SQLite DB path, CSV source path)
+- [x] 1.1 Create backend/ Django project (config) + entities app, add Django, djangorestframework, pydantic to backend/requirements.txt
+- [x] 1.2 Configure settings (INSTALLED_APPS, DRF, SQLite DB path, CSV source path)
 
 ## 2. Data Model & Loading
 
