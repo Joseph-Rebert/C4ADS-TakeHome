@@ -11,10 +11,10 @@
 
 ## 3. API Endpoint
 
-- [ ] 3.1 Add EntitySerializer (all 7 fields)
-- [ ] 3.2 Add pydantic EntityFilterParams model (country: optional str, entity_type: optional Literal["Individual","Organization"])
-- [ ] 3.3 Implement EntityViewSet/ListAPIView for GET /api/entities/ validating query params via pydantic, filtering via ORM, returning 400 on invalid entity_type
-- [ ] 3.4 Wire up urls.py (backend/config + entities app) for /api/entities/
+- [x] 3.1 Add EntitySerializer (all 7 fields)
+- [x] 3.2 Add pydantic EntityFilterParams model (country: optional str, entity_type: optional Literal["Individual","Organization"])
+- [x] 3.3 Implement EntityViewSet/ListAPIView for GET /api/entities/ validating query params via pydantic, filtering via ORM, returning 400 on invalid entity_type
+- [x] 3.4 Wire up urls.py (backend/config + entities app) for /api/entities/
 
 ## 4. Backend Tests
 
